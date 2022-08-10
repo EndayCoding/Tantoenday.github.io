@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Tanto Enday</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7e69e1ff60.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+       <div class="container">
+           <nav>
+               <img src="images/logoenday1.png" class="logo">
+               <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Sevices</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+               </ul>
+               <i class="fas fa-bars" onclick="openmenu()"></i>
+           </nav>
+            <div class="header-text">
+                <p>Glory-Glory</p>
+                <h1>Hi, i'm<span>Tanto Enday</span><br>From Indonesia</h1>
+            </div>
+       </div> 
+    </div>
+    <!-- -----------about---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/enday2.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Graduated from Ahmad Dahlan University majoring Management. gaining experiences from one of the biggest Sentul Waterpark has made her be a creative and critical person. I am highly motivated about 
+                        teaching. Also, I am undoubtedly very discipline, responsible and conscientious in everything that I do. interested in 
+                        partnership, customer service, strategic planning and implementation. to enhance my skills and bring production impact 
+                        through it.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Disigning web/App Interfaces</li>
+                                <li><span>Web Development</span><br>web App Development</li>
+                                <li><span>UI/UX</span><br>Building Android/Ios</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2020 - 2021</span><br>Training Financial Service Cooperative Branch Manager at BNSP.</li>
+                                <li><span>2021 - 2022</span><br>Learning to create ads in Google Ads to Become an Advertising Specialist at Prakerja.</li>
+                                <li><span>2021 - 2022</span><br>Basic Staffing Management Training to Become a Human Resources Assistant at Prakerja</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2021</span><br>Bachelor Degree of Management from Universitas Ahmad Dahlan</li>
+                                <li><span>2017</span><br>Diploma of Bussiness International from Universitas jendral Soedirman</li>
+                                <li><span>2013</span><br>SMK N 1 Binangun</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------services-------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus labore alias tenetur quos dolore fugit, quas odit aspernatur a quidem. Corporis nostrum quidem quibusdam? 
+                        Nisi accusantium recusandae fuga alias officiis!</p>
+                        <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus labore alias tenetur quos dolore fugit, quas odit aspernatur a quidem. Corporis nostrum quidem quibusdam? 
+                        Nisi accusantium recusandae fuga alias officiis!</p>
+                        <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus labore alias tenetur quos dolore fugit, quas odit aspernatur a quidem. Corporis nostrum quidem quibusdam? 
+                        Nisi accusantium recusandae fuga alias officiis!</p>
+                        <a href="#">learn more</a>
+                </div>
+            </div> 
+        </div>
+    </div>
+    <!-- --------portfolio-------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3> Sosial Media</h3>
+                        <p>the app connects you yo the talented people around 
+                            the world.Download it from play store.</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Music</h3>
+                        <p>the app connects you yo the talented people around 
+                            the world.Download it from play store.</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Shopping</h3>
+                        <p>the app connects you yo the talented people around 
+                            the world.Download it from play store.</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div> 
+    </div>
+    <!--  ----------Contact-----------  -->
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>tantoedi889@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>082224165007</p>
+                    <div class="Social-icons">
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/CURICULUM VITAE TANTO EDI TRIYONO 2022.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2"-success>Submit</button>
+                    </form>
+                    <span id="msg"></span> 
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Tanto Enday. made with<i class="fa-solid fa-heart"></i></i>Me Me Me</p>
+        </div>
+    </div>
+
+
+
+
+    <script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");   
+    }
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+
+    </script>
+   <script>
+    const scriptURL = '<https://script.google.com/macros/s/AKfycbz_Q0yJnfLTDo4FLypN1QJyv_TqBjHU3NqFlis5G-4ZOxriQK29MqW9_HGWEdSB05OOoA/exec>'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
